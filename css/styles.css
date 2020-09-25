@@ -390,6 +390,9 @@ main .post-content .post-title a{
     margin: .4rem .6rem;
 }
 
+.sidebar .category h2, .popular-post h2, .newsletter h2,.popular-tags h2 {
+    padding: 2rem;
+}
 
 /* -------x------- Sidebar -----------x----------- */
 /*--------x-----Main Content---------x----------*/
@@ -414,6 +417,7 @@ footer.footer .container > div{
 
 footer.footer .container h2{
     color: var(--white);
+    padding: 0;
 }
 
 footer.footer .newsletter .form-element{
